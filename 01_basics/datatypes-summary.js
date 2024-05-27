@@ -29,7 +29,49 @@ const myFunction = function(){
 } // typeof will show function 
 
 
-console.log(typeof(bigNumber));
+
+// Return type of variables in JavaScript
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Premitive)
+
+let myYoutubename = "swagtaRout"
+
+let anotherName = myYoutubename
+anotherName = "swampmasherX"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email : "google@gmail.com",
+    login : "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "swagat@gmail.com"
+console.log(userOne.email); //swagat@gmail.com // this also changes this does not remain as google@gmail.com
+console.log(userTwo.email); //swagat@gmail.com
+
+
+
 
 
 
