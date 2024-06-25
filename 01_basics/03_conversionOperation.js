@@ -30,7 +30,7 @@ let stringNumber = String(someNumber)
 // console.log(typeof stringNumber)
 
 
-//******************************************************************* */
+//****************************OPERATIONS*************************************** */
 
 
 let value = 3
@@ -52,9 +52,9 @@ let str2 = " swagat"
 // console.log("1"+2); //12
 // console.log(1+"2"); //12
 // console.log(1+2); //3
-// console.log("1"+2+3); //123
-// console.log(1+"2"+3); //123
-// console.log(1+2+"3"); // 33
+console.log("1"+2+3); //123
+console.log(1+"2"+3); //123
+console.log(1+2+"3"); // 33  so 1+2 happen so 3 then +'3' therfore 33
 
 
 // console.log(true); // true
@@ -62,3 +62,9 @@ let str2 = " swagat"
 // console.log(true+); // ERRROR
 // console.log(""); // 
 // console.log(+""); // 0
+// let x = 3;
+// const y = x++;
+// console.log(`x:${x}, y:${y}`) // Expected output x:4,y:3
+// let a = 3;
+// const b = ++a;
+// console.log(`a:${a}, b:${b}`) // Expected output x:4,y:4
