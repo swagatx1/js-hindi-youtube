@@ -9,7 +9,7 @@ const outsideTemp = null //null, type of will show it as object
 let usermiddlename; // undefined
 const id = Symbol("123") // Symbol
 const anotherId = Symbol("123") // we will learn use of Symbols in react mainly
-console.log(id===anotherId); // A property of Symbol no 2 Symbols can be same i.e. will show false
+console.log(id===anotherId); // A property of Symbol is that 2 Symbols can't be same i.e. id is not equal to anotherid therfore False
 const bigNumber = 3456789876543212345678n //BigInt
 
 
@@ -42,15 +42,15 @@ const myFunction = function(){
 
 // 2) Non-primitive Datatypes
 //        Arrays  =>  object
-//        Function  =>  function
 //        Object  =>  object
+//        Function  =>  function
 
 
 
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Stack (Primitive), Heap (Non-Premitive)
+// Stack (used in Primitive), Heap (used in Non-Premitive)
 
 let myYoutubename = "swagtaRout"
 
