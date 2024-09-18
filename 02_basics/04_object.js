@@ -66,5 +66,23 @@ const course = {
 }
 course.courseInstructor // logging this multiple times is tideous
 // so we can write 
-const {courseInstructor : inst} = course
+const {courseInstructor : inst} = course // this is destructuring
 console.log( inst );
+// whenever you see {something} this is destructuring
+
+
+//We will learn about API's later but nowadays APIS are recieved in JSON, a text-based format for data exchange.
+// what is JSON? - its a object
+// {
+//     "name": "swagat",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+// OR
+// [
+//     {},
+//     {},
+// ]
+// we can access these JSON files by sing fetch command and giving ita url were it can get acces to JSON text
+// thats how we recieve values using API's. Next we can just convert it to object andperform operations.
+console.log("end");
