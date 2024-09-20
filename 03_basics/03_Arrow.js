@@ -34,12 +34,11 @@ function chai (){
 
 // chai()
 
-const chai1 = () => {  // This is arrow function works same as 
+const chai1 = () => {  // This is arrow function works same as normal function
     let username = "swagat"
     console.log("username : ",this.username); // undefined, becuase this doesnt work in function
-    console.log(this); // empty {} when used => function no context inside this
+    console.log(this); // empty {} as Arrow functions do not have their own this context
     
-}
 
 // chai1()
 
