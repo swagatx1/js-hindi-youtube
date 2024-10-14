@@ -9,7 +9,7 @@ body {
   
   h1 {
     text-align: center;
-    color: #333;
+    color: #ffff;
   }
   
   /* Navigation bar */
@@ -31,10 +31,10 @@ body {
   
   /* Container for the form */
   .container {
-    max-width: 600px;
-    margin: 50px auto;
+    border: 50px;
     padding: 20px;
-    background-color: white;
+    background-color: #474747;
+    color:#ffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -82,6 +82,7 @@ body {
   #weight-guide {
     margin-top: 30px;
     background-color: #f9f9f9;
+    color: #212121;
     padding: 15px;
     border-radius: 8px;
   }
