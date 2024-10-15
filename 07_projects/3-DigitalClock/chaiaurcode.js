@@ -1,4 +1,6 @@
 const clock =document.getElementById('clock')
+let FIRSTTIME = new Date()
+clock.innerText = FIRSTTIME.toLocaleTimeString()
 
 setInterval(()=>{
     let date = new Date()
