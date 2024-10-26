@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: aliceblue;">
+    <h1>Chai aur code</h1>
+    <h2>Counter: <span id="counter"></span></h2>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const saySwagat = function(){
+        console.log('Swagat');
+    }
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = 'Best Js series'
+        console.log('Time ran out');
+    }
+    //to Change text after 2 seconds
+    const changeMe = setTimeout(changeText, 2000)
+
+    //to Stop the text change if the "Stop" button is clicked
+    const stop = document.querySelector('#stop')
+    stop.addEventListener('click', ()=>{clearTimeout(changeMe)})
+
+
+    // Counter code
+    let counterValue = 2;
+    const counterElement = document.getElementById('counter');
+    counterElement.innerHTML = counterValue;
+    stop.addEventListener('click', ()=>{clearInterval(counterInterval);})
+    const counterInterval = setInterval(() => {
+        if (counterValue > 0) {
+            counterValue--;
+            counterElement.innerHTML = counterValue;
+        } else {
+            clearInterval(counterInterval); // Stop the counter at 0
+        }
+    }, 1000);
+
+
+</script>
+</html>
